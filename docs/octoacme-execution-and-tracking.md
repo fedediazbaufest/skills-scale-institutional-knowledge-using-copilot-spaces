@@ -20,8 +20,9 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+- Security scanning in CI (Security Champion reviews findings each sprint)
+- QA Lead coordinates manual acceptance testing for new features
+- UX/UI Designer participates in usability reviews during sprint demos
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -29,12 +30,15 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
+- Level 1: Team-level triage in daily standup (Technical Lead assists with technical blockers)
 - Level 2: PM escalates to Product Lead and dependent teams
 - Level 3: Sponsor-level escalation for business-impacting issues
+- Security incidents: Security Champion leads triage; notify Security on-call immediately
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
-- [ ] Regular demos scheduled
-- [ ] Risk register updated weekly
+- [ ] Security scanning enabled in CI (Security Champion notified of findings)
+- [ ] Regular demos scheduled (UX/UI Designer and QA Lead participate)
+- [ ] Risk register updated weekly (Technical Lead and Security Champion contribute)
+- [ ] QA Lead confirms test coverage meets Definition of Done each sprint
