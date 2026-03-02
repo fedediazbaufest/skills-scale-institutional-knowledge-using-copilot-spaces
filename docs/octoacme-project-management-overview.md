@@ -17,7 +17,11 @@ Applies to all cross-functional projects that deliver product features, services
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
 - Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
+- Technical Lead: sets technical direction, reviews architecture, identifies technical risks.
+- UX/UI Designer: designs user experiences, produces wireframes and design specifications.
+- Quality Assurance Lead (QA Lead): owns test strategy, coordinates QA activities and release readiness.
+- Security Champion: advocates for security best practices in planning, development, and release.
+- Support/Customer Success: bridges user feedback into the improvement cycle; supports release communications.
 - Stakeholders: provide inputs and approvals.
 
 ## Key Artifacts
@@ -37,8 +41,12 @@ Applies to all cross-functional projects that deliver product features, services
 
 ## Communication Cadence
 - Weekly sync between PM + PdM
+- Weekly sync between PM + Technical Lead (timeline, dependencies, technical risks)
 - Twice-weekly standups for delivery team (or as agreed)
 - Monthly stakeholder updates
+- QA Lead participates in sprint reviews and release readiness gates
+- Security Champion reviews risk register and release checklist each sprint
+- Support/Customer Success provides user-feedback summary to Product Manager at least biweekly
 - Ad-hoc escalations as needed
 
 ## How to use these docs
